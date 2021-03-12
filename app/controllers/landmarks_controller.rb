@@ -1,4 +1,4 @@
-# class LandmarksController < ApplicationController
+class LandmarksController < ApplicationController
 #   get '/landmarks' do
 #     @landmarks = Landmark.all
 #     @figures = Figure.all
@@ -32,4 +32,4 @@
 #     Landmark.create(name: params['landmark']['name'], year_completed: params['landmark']['year_completed'])
 #     redirect '/landmarks'
 #   end
-# end
+end
